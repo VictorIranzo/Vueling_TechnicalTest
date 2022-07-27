@@ -1,0 +1,95 @@
+{
+	"info": {
+		"_postman_id": "46dfc724-6f23-40ef-b0c2-acaef9addfeb",
+		"name": "Vueling - Postman Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GetAllRates",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7038/Rates/GetAllRates",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7038",
+					"path": [
+						"Rates",
+						"GetAllRates"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAllTransactions",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7038/Transactions/GetAllTransactions",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7038",
+					"path": [
+						"Transactions",
+						"GetAllTransactions"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetTransactionsBySkuInEuros",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7038/Transactions/GetTransactionsBySkuInEuros?sku=T6735",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7038",
+					"path": [
+						"Transactions",
+						"GetTransactionsBySkuInEuros"
+					],
+					"query": [
+						{
+							"key": "sku",
+							"value": "T6735"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,6 @@
+[remote "Bit_Bucket"]
+	url = https://VictorIranzo@bitbucket.org/vueling-otd-backend26/vctor-iranzo-jimnez.git
+	fetch = +refs/heads/*:refs/remotes/Bit_Bucket/*
+[branch "master"]
+	remote = Bit_Bucket
+	merge = refs/heads/master

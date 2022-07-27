@@ -1,0 +1,17 @@
+0000000000000000000000000000000000000000 23dbef65a31f3317f2bc55afe5240174f19dc9d3 Víctor Iranzo <viranzo96@gmail.com> 1657460318 +0200	clone: from https://VictorIranzo@bitbucket.org/vueling-otd-backend26/vctor-iranzo-jimnez.git
+23dbef65a31f3317f2bc55afe5240174f19dc9d3 d88eccc2b40f95ab6cb6eb0ac7107ac6cbe71c55 Víctor Iranzo <viranzo96@gmail.com> 1657461196 +0200	commit: Añadir primer esqueleto de capa de Servicios usando plantilla.
+d88eccc2b40f95ab6cb6eb0ac7107ac6cbe71c55 d9d081a7efb09af02ff7fc2fa910d7bb9f5e24f6 Víctor Iranzo <viranzo96@gmail.com> 1657466453 +0200	commit: Añadida capa de Contratos, Lógica y algunos registro de DI.
+d9d081a7efb09af02ff7fc2fa910d7bb9f5e24f6 7f8058f25775e7190b29b693df137adb7c7d6623 Víctor Iranzo <viranzo96@gmail.com> 1657475690 +0200	commit: Algunos pasos más relacionados con la Persistencia.
+7f8058f25775e7190b29b693df137adb7c7d6623 043c4be83264019f477b5247adf7611f43bbd565 Víctor Iranzo <viranzo96@gmail.com> 1657747151 +0200	commit: Revisar controladores.
+043c4be83264019f477b5247adf7611f43bbd565 b2b3495d9a3605ee242ef805935cc3dd5f6104a8 Víctor Iranzo <viranzo96@gmail.com> 1657747324 +0200	commit: Crear clientes para hacer invocaciones a Heroku.
+b2b3495d9a3605ee242ef805935cc3dd5f6104a8 813053da618c1c36eab04370d103f0a73efd0765 Víctor Iranzo <viranzo96@gmail.com> 1657747362 +0200	commit: Definiendo algunos conversores para la lógica.
+813053da618c1c36eab04370d103f0a73efd0765 30b34941bf6d2ae10e1f5e2076162b9b8d062517 Víctor Iranzo <viranzo96@gmail.com> 1657750685 +0200	commit: Añadido Polly + juntar algunas piezas para devolver el resultado bien desde BD o bien desde el cliente.
+30b34941bf6d2ae10e1f5e2076162b9b8d062517 1e7c41a0852ab1672db162ab5a0b20ec3976d243 Víctor Iranzo <viranzo96@gmail.com> 1657754859 +0200	commit: Lógica para generar un grafo y transformar de una moneda a otra.
+1e7c41a0852ab1672db162ab5a0b20ec3976d243 09598b5c64439e3884c4fa9ab696595701254e14 Víctor Iranzo <viranzo96@gmail.com> 1657756131 +0200	commit: Implementado GetTransactionsBySkuInEurosAsync.
+09598b5c64439e3884c4fa9ab696595701254e14 c81466afd56fa0793979f210993896f4490ddfbe Víctor Iranzo <viranzo96@gmail.com> 1657828744 +0200	commit: Algunos pasos en primer test.
+c81466afd56fa0793979f210993896f4490ddfbe cecc89a78dd3d09fee8f8ead68c0279bd8380cae Víctor Iranzo <viranzo96@gmail.com> 1657830731 +0200	commit: Nuevo test + hacer que la Policy de Polly no ralentiza los tests.
+cecc89a78dd3d09fee8f8ead68c0279bd8380cae ed24d6d081bfaf88edae5fcab2ee42a9dd88f366 Víctor Iranzo <viranzo96@gmail.com> 1657834948 +0200	commit: Nuevo test + corregir algunos errores.
+ed24d6d081bfaf88edae5fcab2ee42a9dd88f366 7bc296920cb5234488ba4798f831c98deb505e2b Víctor Iranzo <viranzo96@gmail.com> 1657835414 +0200	commit: Revisados roundings.
+7bc296920cb5234488ba4798f831c98deb505e2b 0c412df010fd7c2a337df815866684c5a53cf96d Víctor Iranzo <viranzo96@gmail.com> 1657835851 +0200	commit: Solucionando algún error de redondeo + colección de Postman.
+0c412df010fd7c2a337df815866684c5a53cf96d 496c1ad36dd25a46c24210b4db353083695a6d38 Víctor Iranzo <viranzo96@gmail.com> 1657837943 +0200	commit: Modelar tests sobre grafo.
+496c1ad36dd25a46c24210b4db353083695a6d38 a82d64aa81ea7e7d1369c6485761b64f0a43663c Víctor Iranzo <viranzo96@gmail.com> 1657838060 +0200	commit: Finished

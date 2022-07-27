@@ -1,0 +1,46 @@
+{
+  "$id": "13",
+  "AutoRefresh": true,
+  "AutoRefreshRemotes": true,
+  "CommitTextLinks": null,
+  "DraftCommitMsg": "",
+  "IncomingSavedCount": 0,
+  "LastCheckedRemotes": "2022-07-15T00:34:36.9282299+02:00",
+  "LastUsedView": 1,
+  "LogBranchFilterIndex": 0,
+  "OutgoingSavedCount": 0,
+  "SidebarExpandedItems": [
+    "Branches"
+  ],
+  "SidebarWidth": 210.0,
+  "SubtreeLinks": [],
+  "NeedsLargeFilesPull": false,
+  "RemoteProjectLinks": [
+    {
+      "$id": "14",
+      "BaseUrl": "https://bitbucket.org/",
+      "Identifier": "",
+      "RemoteName": "origin",
+      "Type": 0,
+      "Username": "VictorIranzo",
+      "CloneUrl": "https://VictorIranzo@bitbucket.org/vueling-otd-backend26/vctor-iranzo-jimnez.git",
+      "ProjectUrl": "https://bitbucket.org/vueling-otd-backend26/vctor-iranzo-jimnez",
+      "AccountId": "VictorIranzo@bitbucket.org",
+      "AvatarUrl": "https://bytebucket.org/ravatar/%7Bbb68e535-4a47-4f10-bccd-4e34fbb9925b%7D?ts=default",
+      "DisplayName": "origin: https://bitbucket.org/"
+    },
+    {
+      "$id": "15",
+      "BaseUrl": "https://www.bitbucket.org",
+      "Identifier": "vueling-otd-backend26/vctor-iranzo-jimnez",
+      "RemoteName": "Bit Bucket",
+      "Type": 1,
+      "Username": "VictorIranzo",
+      "CloneUrl": null,
+      "ProjectUrl": null,
+      "AccountId": null,
+      "AvatarUrl": null,
+      "DisplayName": "Bit Bucket: https://www.bitbucket.org"
+    }
+  ]
+}

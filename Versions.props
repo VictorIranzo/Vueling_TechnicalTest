@@ -1,0 +1,21 @@
+<Project>
+
+  <PropertyGroup>
+    <CoverletVersion>3.1.2</CoverletVersion>
+    <FluentAssertionsVersion>6.7.0</FluentAssertionsVersion>
+    <MoqVersion>4.18.1</MoqVersion>
+    <MicrosoftEntityFrameworkCoreVersion>6.0.6</MicrosoftEntityFrameworkCoreVersion>
+    <MicrosoftExtensionsFrameworkVersion>6.0.0</MicrosoftExtensionsFrameworkVersion>
+    <MicrosoftExtensionsConfigurationVersion>$(MicrosoftExtensionsFrameworkVersion)</MicrosoftExtensionsConfigurationVersion>
+    <MicrosoftExtensionsDependencyInjectionVersion>$(MicrosoftExtensionsFrameworkVersion)</MicrosoftExtensionsDependencyInjectionVersion>
+    <MicrosoftExtensionsHttpVersion>$(MicrosoftExtensionsFrameworkVersion)</MicrosoftExtensionsHttpVersion>
+    <MicrosoftExtensionsOptionsVersion>$(MicrosoftExtensionsFrameworkVersion)</MicrosoftExtensionsOptionsVersion>
+    <MicrosoftNETTestSdkVersion>17.1.0</MicrosoftNETTestSdkVersion>
+    <MSTestVersion>2.2.8</MSTestVersion>
+    <NewtonsoftJsonVersion>13.0.1</NewtonsoftJsonVersion>
+    <PollyVersion>7.2.3</PollyVersion>
+    <QuikGraphVersion>2.5.0</QuikGraphVersion>
+    <SwashbuckleAspNetCoreVersion>6.2.3</SwashbuckleAspNetCoreVersion>
+  </PropertyGroup>
+
+</Project>

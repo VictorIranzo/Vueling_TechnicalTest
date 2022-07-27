@@ -1,0 +1,89 @@
+﻿{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Transactions API",
+    "description": "The specification to call the server endpoint to get the transactions.",
+    "version": "1.0.0",
+    "servers": [
+      {
+        "url": "http://quiet-stone-2094.herokuapp.com"
+      }
+    ]
+  },
+  "paths": {
+    "/rates.json": {
+      "get": {
+        "description": "Returns a list of Rates",
+        "operationId": "GetRates",
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/APIRate"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/transactions.json": {
+      "get": {
+        "description": "Returns a list of Transactions",
+        "operationId": "GetTransactions",
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/APITransaction"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "APIRate": {
+        "type": "object",
+        "properties": {
+          "from": {
+            "type": "string"
+          },
+          "to": {
+            "type": "string"
+          },
+          "rate": {
+            "type": "string"
+          }
+        }
+      },
+      "APITransaction": {
+        "type": "object",
+        "properties": {
+          "sku": {
+            "type": "string"
+          },
+          "amount": {
+            "type": "string"
+          },
+          "currency": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}
